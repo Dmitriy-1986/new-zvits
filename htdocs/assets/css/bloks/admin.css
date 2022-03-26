@@ -1,0 +1,117 @@
+details>summary {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0202e3;
+    margin: 5px;
+    padding: 4px;
+    width: 98%;
+    background: linear-gradient(0deg, rgba(163, 163, 163, 1) 0%, rgba(211, 211, 211, 1) 100%);
+    border: none;
+    box-shadow: 1px 1px 2px #bbbbbb;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    details>summary {
+        width: 97%;
+    }
+}
+
+@media (max-width: 550px) {
+    details>summary {
+        width: 96%;
+    }
+}
+
+@media (max-width: 450px) {
+    details>summary {
+        width: 95%;
+    }
+}
+
+details>dl>dt {
+    background: linear-gradient(0deg, rgba(163, 163, 163, 1) 0%, rgba(211, 211, 211, 1) 100%);
+    padding: 4px;
+    width: 98%;
+    margin: 5px;
+    box-shadow: 1px 1px 2px #bbbbbb;
+}
+@media (max-width: 992px) {
+    details>dl>dt {
+        width: 97%;
+    }
+}
+
+@media (max-width: 550px) {
+    details>dl>dt {
+        width: 96%;
+    }
+}
+
+@media (max-width: 450px) {
+    details>dl>dt {
+        width: 95%;
+    }
+}
+.search {
+    margin: 25px 5px 10px 5px;
+}
+
+.search label i {
+    color: #0202e3;
+    margin-right: 5px;
+}
+
+.search input {
+    padding: 6px 0 6px 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.fa-search:before {
+    font-size: 16px;
+}
+
+.search button {
+    color: #333333;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3px;
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid #c0c0c0;
+    background: linear-gradient(180deg, rgba(99, 99, 99) 1%, rgba(210, 210, 210) 50%, rgba(255, 255, 255) 100%);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 5px;
+    line-height: 1em;
+    min-height: calc(68vh - 70px);
+}
+
+.other-data {
+    margin: 5px;
+}
+
+.data-user {
+    background-color: white;
+    width: 100%;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.data-i {
+    color: blue;
+}

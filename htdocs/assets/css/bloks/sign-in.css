@@ -1,0 +1,99 @@
+/* Аутентифікація */
+.alert {
+    min-width: 300px;
+    max-width: 500px;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    background: linear-gradient(0deg, rgba(163, 163, 163, 1) 0%, rgba(211, 211, 211, 1) 100%);
+}
+
+.alert_autorization {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.autorization {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #008800;
+    text-shadow: .8px .8px .8px #FFFFFF;
+    letter-spacing: 3px;
+
+}
+
+.alert_user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.alert_user_box-txt {
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0000ff;
+    text-shadow: 2px 2px 2px #3f3e3e;
+    letter-spacing: 3px;
+}
+
+.alert_user_input {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.user,
+.password {
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-color: white;
+}
+
+.alert_button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.button {
+    color: #333333;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+    width: 180px;
+    border-radius: 10px;
+    border: 2px solid #c0c0c0;
+    background: linear-gradient(180deg, rgba(99, 99, 99) 1%, rgba(210, 210, 210) 50%, rgba(255, 255, 255) 100%);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 8px 8px rgba(34, 60, 80, 0.2);
+} 
+
+@media (max-width: 510px) {
+    .alert_user {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .alert_user_box-txt {
+        margin: 0;
+    }
+
+    .alert_user_input {
+        margin: 0;
+    }
+}
+
+/* //Аутентифікація */

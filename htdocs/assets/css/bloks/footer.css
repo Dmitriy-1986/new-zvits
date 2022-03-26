@@ -1,0 +1,23 @@
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px 0 0 0;
+    background-color: #1c1c1c;
+    padding: 5px 0 5px 0;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: .6;
+}
+
+footer span {
+    margin: 0 0 0 5px;
+    color: white;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
